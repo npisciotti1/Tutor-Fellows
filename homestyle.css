@@ -1,4 +1,4 @@
-body {
+/*body {
   width: auto;
   margin: auto;
   font-family: Helvetica;
@@ -22,7 +22,7 @@ header a {
   font-size: 1.5em;
   font-weight: 600;
   list-style:none;
-}
+}*/
 
 section {
   width:auto;
@@ -38,7 +38,7 @@ section {
 }
 
 
-footer {
+/*footer {
   margin-top: 500px;
   background-color: #000;
   overflow: hidden;
@@ -49,4 +49,4 @@ footer {
 #social-nav li {
   float: left;
   list-style:none;
-}
+}*/
