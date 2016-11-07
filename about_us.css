@@ -1,3 +1,26 @@
-#about_us_bio {
+.about_us_bio {
   float: left;
+  display: inline-block;
+}
+
+.about_us_paragraph {
+  float: right;
+  display: inline-block;
+  background-color: black;
+  opacity: .7;
+  color: white;
+  line-height: 30px;
+  padding: 16px;
+  width: 500px;
+}
+
+.about_us_picture {
+  float: left;
+  display: inline-block;
+  height: 250px;
+  margin-right: 50px;
+}
+
+h1 {
+  text-align: center;
 }
