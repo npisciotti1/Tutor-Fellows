@@ -1,0 +1,27 @@
+body {
+  width: auto;
+  margin: auto;
+}
+fieldset {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+.textDiv {
+  display:block;
+  margin: 20px 0px;
+}
+
+.textField {
+
+}
+
+.checkbox {
+  display: inline-block;
+}
+
+#textArea {
+  display: block;
+  height: 100px;
+  width: 250px;
+}
