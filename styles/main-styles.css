@@ -1,0 +1,37 @@
+body {
+  width: auto;
+  margin: auto;
+  font-family: Helvetica;
+}
+header {
+    background-color: #000;
+    height:120px;
+    overflow: hidden;
+    color:white;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#site-nav li {
+  margin-bottom: 500px;
+  float: right;
+  padding: 20px;
+  padding-right: 20px;
+  font-size: 1.5em;
+  font-weight: 600;
+  list-style:none;
+}
+footer {
+  margin-top: 500px;
+  background-color: #000;
+  overflow: hidden;
+  color:white;
+  text-align:center;
+}
+
+#social-nav li {
+  float: left;
+  list-style:none;
+}
