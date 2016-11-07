@@ -1,56 +1,27 @@
 
 .about_us_bio {
+  float: left;
   display: inline-block;
 }
 
 .about_us_paragraph {
-  background-color: rgba(0, 0, 0, .7);
+  float: right;
+  display: inline-block;
+  background-color: black;
+  opacity: .7;
   color: white;
   line-height: 30px;
   padding: 16px;
-  width: 250px;
-  height: 250px;
+  width: 500px;
 }
-
-/* #top-row {
-  display: inline-block;
-}
-
-#top-row-right {
-  float: right;
-  width; 50%;
-}
-
-#top-row-left {
-  float: left;
-  width 50%;
-} */
-
-/*.about_us_paragraph:hover {
-  background-color: rgba(0, 0, 0, .7);
-  transition: background-color 2s;
-}*/
 
 .about_us_picture {
+  float: left;
+  display: inline-block;
   height: 250px;
   margin-right: 50px;
-  align-content: center;
 }
 
 h1 {
   text-align: center;
-  background-color: black;
-  color: white;
-}
-
-.bio1 {
-  float: left;
-}
-
-.bio2 {
-  align-items: center;
-}
-
-.bio3 {
-  float: right;
 }
