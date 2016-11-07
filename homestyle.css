@@ -1,9 +1,11 @@
 body {
   width: auto;
   margin: auto;
+  font-family: Helvetica;
 }
 header {
     background-color: #000;
+    height:120px;
     overflow: hidden;
     color:white;
 }
@@ -13,15 +15,26 @@ header a {
 }
 
 #site-nav li {
+  margin-bottom: 500px;
   float: right;
   padding: 20px;
+  padding-right: 20px;
   font-size: 1.5em;
   font-weight: 600;
   list-style:none;
 }
 
+section {
+  width:auto;
+  height:auto;
+}
 .box {
-  height: 50%;
+  /*padding-bottom: 5em;
+      padding-top: 5em;
+      margin: 0;
+      background: #333 urlhttp://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg() 50% no-repeat;
+      background-size: cover;
+      width: auto;*/
 }
 
 
@@ -30,4 +43,10 @@ footer {
   background-color: #000;
   overflow: hidden;
   color:white;
+  text-align:center;
+}
+
+#social-nav li {
+  float: left;
+  list-style:none;
 }
