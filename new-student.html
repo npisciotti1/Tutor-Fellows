@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="styles/new-student.css">
     <title>New Student Form</title>
   </head>
   <body>
@@ -9,18 +10,18 @@
     <main>
       <h1>Register Here!</h1>
       <form id="newStudentForm">
-        Name: <input type="text" name="fName" value="First Name" max="12">
-        Last Name: <input type="text" name:"lName" value="Last Name" max="15">
-        Email: <input type="text" name="email" value="Email" max="18">
+        Name: <input class="textField" type="text" name="fName" placeholder="First Name" max="12">
+        Last Name: <input class="textField" type="text" name:"lName" placeholder="Last Name" max="15">
+        Email: <input class="textField" type="text" name="email" placeholder="Email" max="18">
         <p>Select from below the subjects you seek help with:</p>
-        Javascript <input type="radio" name="javascript" value="javascript">
-        HTML/CSS <input type="radio" name="html/css" value ="html/css">
-        Python <input type="radio" name="python" value="python">
-        iOS <input type="radio" name="ios" value="ios">
-        Java <input type="radio" name="java" value="java">
-        <input id="textArea" type="textarea" name="textarea" value="Any questions or Concerns?" max="144">
+        Javascript <input class="checkbox" type="checkbox" name="javascript" value="javascript">
+        HTML/CSS <input class="checkbox" type="checkbox" name="html/css" value ="html/css">
+        Python <input class="checkbox" type="checkbox" name="python" value="python">
+        iOS <input class="checkbox" type="checkbox" name="ios" value="ios">
+        Java <input class="checkbox" type="checkbox" name="java" value="java">
+        <textarea id="textArea" name="textarea" placeholder="Any questions or Concerns?" rows="5" cols="50"></textarea>
+        <input type="submit" name="submit" value="Register!">
       </form>
-
     </main>
   </body>
 </html>
