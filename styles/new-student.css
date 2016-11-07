@@ -1,5 +1,19 @@
-.textField {
+body {
+  width: auto;
+  margin: auto;
+}
+fieldset {
+  display: block;
+  margin: auto;
+  width: 75%;
+}
+.textDiv {
   display:block;
+  margin: 20px 0px;
+}
+
+.textField {
+
 }
 
 .checkbox {

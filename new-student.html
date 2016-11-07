@@ -9,10 +9,11 @@
     <!-- Header section / Nav-bar -->
     <main>
       <h1>Register Here!</h1>
+      <fieldset>
       <form id="newStudentForm">
-        Name: <input class="textField" type="text" name="fName" placeholder="First Name" max="12">
-        Last Name: <input class="textField" type="text" name:"lName" placeholder="Last Name" max="15">
-        Email: <input class="textField" type="text" name="email" placeholder="Email" max="18">
+        <div class="textDiv">Name: <input class="textField" type="text" name="fName" placeholder="First Name" max="12"></div>
+        <div class="textDiv">Last Name: <input class="textField" type="text" name:"lName" placeholder="Last Name" max="15"></div>
+        <div class="textDiv">Email: <input class="textField" type="text" name="email" placeholder="Email" max="18"></div>
         <p>Select from below the subjects you seek help with:</p>
         Javascript <input class="checkbox" type="checkbox" name="javascript" value="javascript">
         HTML/CSS <input class="checkbox" type="checkbox" name="html/css" value ="html/css">
@@ -22,6 +23,7 @@
         <textarea id="textArea" name="textarea" placeholder="Any questions or Concerns?" rows="5" cols="50"></textarea>
         <input type="submit" name="submit" value="Register!">
       </form>
+      </fieldset>
     </main>
   </body>
 </html>
