@@ -1,0 +1,33 @@
+body {
+  width: auto;
+  margin: auto;
+}
+header {
+    background-color: #000;
+    overflow: hidden;
+    color:white;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#site-nav li {
+  float: right;
+  padding: 20px;
+  font-size: 1.5em;
+  font-weight: 600;
+  list-style:none;
+}
+
+.box {
+  height: 50%;
+}
+
+
+footer {
+  margin-top: 500px;
+  background-color: #000;
+  overflow: hidden;
+  color:white;
+}
