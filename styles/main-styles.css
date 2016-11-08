@@ -3,12 +3,20 @@ body {
   margin: auto;
   font-family: Helvetica;
 }
+.logo {
+  width:auto;
+  margin: 20px 0;
+}
+a:hover {
+  cursor: default;
+}
 header {
     background-color: #000;
     height:120px;
     overflow: hidden;
     color:white;
     font-size:15px;
+
 }
 header a {
   color: white;
@@ -16,11 +24,12 @@ header a {
 }
 
 #site-nav li {
-  margin-bottom: 500px;
+  /*margin-bottom: 300px;*/
+  margin-top: -40px;
   float: right;
   padding: 20px;
   padding-right: 20px;
-  font-size: 1.5em;
+  font-size: 20px;
   font-weight: 600;
   list-style:none;
 }
@@ -43,7 +52,7 @@ footer p {
 }
 .label {
   margin-left: 50px;
-  padding: 5px 0px;
+  padding: 10px 0px;
 }
 
 #social-nav {
@@ -51,6 +60,7 @@ footer p {
 }
 #social-nav li {
   display: inline-block;
+  margin-top: -20px;
   padding: 0px 5px;
   font-size: 1.8em;
 

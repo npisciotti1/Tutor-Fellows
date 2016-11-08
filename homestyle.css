@@ -6,8 +6,13 @@ section {
   padding-bottom: 5em;
   padding-top: 5em;
   margin: 0;
-  background: #333 url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg) 100% no-repeat;
+  background: #333 url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg) 10% no-repeat;
   background-size: cover;
   width: auto;
-  color:white;
+  color:#d03226;
+}
+.home-content-headl {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 200;
 }
