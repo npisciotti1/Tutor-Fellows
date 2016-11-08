@@ -1,5 +1,7 @@
 'use strict';
 
+var studentSubjects = [];
+
 function resetDivs(){
   var dayBoxes = document.getElementsByClassName('dayBox');
   for (var i = 0; i < dayBoxes.length; i++){
@@ -50,8 +52,6 @@ function Student(fName, lName, email, subjects) {
   this.email = email;
   this.subjects = subjects;
 }
-
-var studentSubjects = [];
 
 function submitForm(event){
   event.preventDefault();
