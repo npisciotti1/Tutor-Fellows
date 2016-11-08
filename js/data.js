@@ -10,8 +10,6 @@ function resetDivs(){
   }
 }
 
-
-
 function Tutor(fName, lName, subjects, availability, nights) {
   var self = this;
   this.fName = fName;
@@ -54,7 +52,6 @@ new Tutor('James', 'Williums', ['python', 'javascript', 'iOS'], [1, 1, 1, 1, 0, 
 new Tutor('Frazier', 'Mork', ['python', 'javascript', 'iOS', 'java', 'html/css'], [1, 1, 1, 1, 1, 1, 1], true);
 new Tutor('Brandon', 'Son', ['html/css'], [1,0,0,0,0,0,1],false);
 
-
 var currentTutors = [];
 function checkForUser(){
   if(localStorage['currentUser']){
@@ -64,7 +61,6 @@ function checkForUser(){
       for(var j = 0; j < allTutors.length; j++){
         if(allTutors[j].subjects.includes(userSubjects[i].toLowerCase()) && !currentTutors.includes(allTutors[j])){
           currentTutors.push(allTutors[j]);
-          console.log(currentTutors);
         }
       }
     }
