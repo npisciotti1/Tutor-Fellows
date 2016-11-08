@@ -1,16 +1,14 @@
 'use strict';
 
-var daysOfWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
+var daysOfWeek = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 var allTutors = [];
 
 function resetDivs(){
   var dayBoxes = document.getElementsByClassName('dayBox');
   for (var i = 0; i < dayBoxes.length; i++){
-    dayBoxes[i].setAttribute('style', 'background-color: white');
+    dayBoxes[i].setAttribute('style', 'background-image: ' + 'url(days-of-week/' + daysOfWeek[i] + '.png)');
   }
 }
-
-
 
 function Tutor(fName, lName, subjects, availability, nights) {
   var self = this;
@@ -19,13 +17,15 @@ function Tutor(fName, lName, subjects, availability, nights) {
   this.subjects = subjects;
   this.availability = availability;
   this.nights = nights;
+  this.isDisplayed = false;
 
   this.renderTimes = function(event) {
     resetDivs();
     var dayBoxes = document.getElementsByClassName('dayBox');
     for (var i = 0; i < self.availability.length; i++) {
-      if (self.availability[i] === 1) {
-        dayBoxes[i].setAttribute('style', 'background-color: black');
+      if (self.availability[i] === 1){
+        self.isDisplayed = true;
+        dayBoxes[i].setAttribute('style', 'background-image: url(days-of-week/' + daysOfWeek[i] + 'Displayed.png)');
       }
     }
   };
@@ -54,7 +54,6 @@ new Tutor('James', 'Williums', ['python', 'javascript', 'iOS'], [1, 1, 1, 1, 0, 
 new Tutor('Frazier', 'Mork', ['python', 'javascript', 'iOS', 'java', 'html/css'], [1, 1, 1, 1, 1, 1, 1], true);
 new Tutor('Brandon', 'Son', ['html/css'], [1,0,0,0,0,0,1],false);
 
-
 var currentTutors = [];
 function checkForUser(){
   if(localStorage['currentUser']){
@@ -64,7 +63,6 @@ function checkForUser(){
       for(var j = 0; j < allTutors.length; j++){
         if(allTutors[j].subjects.includes(userSubjects[i].toLowerCase()) && !currentTutors.includes(allTutors[j])){
           currentTutors.push(allTutors[j]);
-          console.log(currentTutors);
         }
       }
     }
