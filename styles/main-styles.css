@@ -8,6 +8,7 @@ header {
     height:120px;
     overflow: hidden;
     color:white;
+    font-size:15px;
 }
 header a {
   color: white;
@@ -29,12 +30,20 @@ footer {
   overflow: hidden;
   color:white;
 }
+footer p#top-p {
+  margin-top:80px;
+}
 footer p {
   text-align: center;
+  color:gray;
   width:90%;
-  margin-top:30px;
-  font-size: 15px;
+  margin-bottom: -10px;
+  font-size: 13px;
   font-weight: 100;
+}
+.label {
+  margin-left: 50px;
+  padding: 5px 0px;
 }
 
 #social-nav {
@@ -42,8 +51,8 @@ footer p {
 }
 #social-nav li {
   display: inline-block;
-  padding: 5px 10px;
-  font-size: 2em;
+  padding: 0px 5px;
+  font-size: 1.8em;
 
 }
 #social-nav a {

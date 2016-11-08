@@ -4,9 +4,10 @@ section {
 }
 .box {
   padding-bottom: 5em;
-      padding-top: 5em;
-      margin: 0;
-      background: #333 url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg) 100% no-repeat;
-      background-size: cover;
-      width: auto;
+  padding-top: 5em;
+  margin: 0;
+  background: #333 url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg) 100% no-repeat;
+  background-size: cover;
+  width: auto;
+  color:white;
 }
