@@ -42,6 +42,29 @@ function Tutor(fName, lName, subject, availability, nights) {
 
 }
 
-// function Student() {
+var newStudentForm = document.getElementById('newStudentForm');
 
-// }
+function Student(fName, lName, email, subjects) {
+  this.fName = fName;
+  this.lName = lName;
+  this.email = email;
+  this.subjects = subjects;
+}
+
+var studentSubjects = [];
+
+function submitForm(event){
+  event.preventDefault();
+  var fName = event.target.fNameForm.value;
+  var lName = event.target.lNameForm.value;
+  var email = event.target.emailForm.value;
+  var checkBoxes = document.getElementsByClassName('checkbox');
+  for(var i = 0; i < checkBoxes.length; i++){
+    if(checkBoxes[i].checked === true){
+      studentSubjects.push(checkBoxes[i].name);
+      console.log(checkBoxes[i].name);
+    }
+  }
+}
+
+newStudentForm.addEventListener('submit', submitForm);

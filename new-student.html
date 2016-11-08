@@ -23,21 +23,24 @@
         </nav>
       </header>
       <h1>Register Here!</h1>
-      <fieldset>
-      <form id="newStudentForm">
-        <div class="textDiv">Name: <input class="textField" type="text" name="fName" placeholder="First Name" max="12"></div>
-        <div class="textDiv">Last Name: <input class="textField" type="text" name:"lName" placeholder="Last Name" max="15"></div>
-        <div class="textDiv">Email: <input class="textField" type="text" name="email" placeholder="Email" max="18"></div>
-        <p>Select from below the subjects you seek help with:</p>
-        Javascript <input class="checkbox" type="checkbox" name="javascript" value="javascript">
-        HTML/CSS <input class="checkbox" type="checkbox" name="html/css" value ="html/css">
-        Python <input class="checkbox" type="checkbox" name="python" value="python">
-        iOS <input class="checkbox" type="checkbox" name="ios" value="ios">
-        Java <input class="checkbox" type="checkbox" name="java" value="java">
-        <textarea id="textArea" name="textarea" placeholder="Any questions or Concerns?" rows="5" cols="50"></textarea>
-        <input type="submit" name="submit" value="Register!">
+      <!-- <form class="" action="index.html" method="post">
+
+      </form> -->
+      <form id="newStudentForm" action="index.html">
+        <fieldset>
+          <div class="textDiv">Name: <input id="fNameForm" class="textField" type="text" name="fName" placeholder="First Name" max="12"></div>
+          <div class="textDiv">Last Name: <input id='lNameForm' class="textField" type="text" name:"lName" placeholder="Last Name" max="15"></div>
+          <div class="textDiv">Email: <input id="emailForm" class="textField" type="text" name="email" placeholder="Email" max="18"></div>
+          <p>Select from below the subjects you seek help with:</p>
+          Javascript <input id="javascriptCB" class="checkbox" type="checkbox" name="Javascript" value="javascript">
+          HTML/CSS <input id="html/cssCB" class="checkbox" type="checkbox" name="HTML/CSS" value ="html/css">
+          Python <input id="pythonCB" class="checkbox" type="checkbox" name="Python" value="python">
+          iOS <input id="iosCB" class="checkbox" type="checkbox" name="iOS" value="ios">
+          Java <input id="javaCB" class="checkbox" type="checkbox" name="Java" value="java">
+          <!-- <textarea id="textArea" name="textarea" placeholder="Any questions or Concerns?" rows="5" cols="50"></textarea> -->
+          <input id="submit" type="submit" name="submit" value="Register!">
+        </fieldset>
       </form>
-      </fieldset>
     </main>
     <footer>
       <nav id= "social-nav">
@@ -52,5 +55,6 @@
       </div>
        <p>Copyright 2016 &copy; <span class="text-red">The Dream-Team 16<span>, dreamteam16@tutorfellows.org</p>
     </footer>
+    <script src="js/app.js"></script>
   </body>
 </html>
