@@ -4,24 +4,15 @@ section {
 }
 .box {
   padding-bottom: 5em;
-      padding-top: 5em;
-      margin: 0;
-      background: #333 url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg) 100% no-repeat;
-      background-size: cover;
-      width: auto;
+  padding-top: 5em;
+  margin: 0;
+  background: #333 url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg) 10% no-repeat;
+  background-size: cover;
+  width: auto;
+  color:#d03226;
 }
-
-
-
-/*footer {
-  margin-top: 500px;
-  background-color: #000;
-  overflow: hidden;
-  color:white;
-  text-align:center;
+.home-content-headl {
+  text-align: center;
+  font-size: 2em;
+  font-weight: 200;
 }
-
-#social-nav li {
-  float: left;
-  list-style:none;
-}*/
