@@ -6,6 +6,7 @@ section {
   position: relative;;
   padding: 0;
   height:200px;
+  width:100%;;
   overflow: hidden;
 
 }
@@ -15,11 +16,11 @@ section {
   z-index: 0;
   top: 0;
   left: 0;
-  background-image: url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg);
-  background-repeat: no-repeat;
-  background-size: auto;
+  padding-bottom: 5em;
+  padding-top: 5em;
+  background: #333 url(//d2q4nobwyhnvov.cloudfront.net/f6a434ba-fb6d-4919-96ca-1075eb348648/vx3b8I6tVj8ybsA/images/home-head.jpg) 50% no-repeat;
   height:500px;
-  width:100%;;
+  width:100%;
 }
 .content {
   background-color: rgba(0, 0, 0, 0.5);
