@@ -75,7 +75,7 @@ h2#looking {
   margin-top: 68px;
 }
 .buttons {
-  border: 2px groove #d03226;
+  border: 1px groove trasparent;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   border-bottom-left-radius: 7px;
@@ -90,8 +90,12 @@ h2#looking {
   /*margin: 60px 80px 0px 80px;*/
   padding-bottom:20px;
 }
-.buttons:active{
+.buttons:active {
   transform: translateY(2px);
+  text-decoration: none;
+}
+.buttons:focus {
+  outline:none;
 }
 .content-header {
   background-color: #333;
@@ -102,7 +106,6 @@ h2#looking {
   padding: 20px;
   font-size: 30px;
   font-weight: 300;
-
 }
 
 #domain p {
