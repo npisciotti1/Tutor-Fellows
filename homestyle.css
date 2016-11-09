@@ -15,7 +15,7 @@ section {
   z-index: 0;
   top: 0;
   left: 0;
-  background: #333 url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg) 50% no-repeat;
+  background: #333 url('images/studentTF.jpg') 50% no-repeat;
   background-size:cover;
   height:300px;
   width:100%;
