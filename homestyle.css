@@ -23,19 +23,19 @@ section {
 .content {
   background-color: rgba(0, 0, 0, 0.5);
   margin: 0;
-  bottom:30px;
+  bottom:40px;
   z-index:1;
   position: relative;
   height: 500px;
   color:white;
-  font-weight: 100;
 }
 h2#looking {
   text-align:left;
   width: 50%;
   padding-top: 120px;
   padding-left: 50px;
-  font-size: 2em;
+  font-size: 40px;
+  font-weight: 100;
 }
 .line {
   height: 2px;
