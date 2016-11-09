@@ -71,12 +71,6 @@ fieldset {
   margin-right: 15px;
   transform: scale(1.4);
 }
-
-/*#textArea {
-  display: block;
-  height: 100px;
-  width: 250px;
-}*/
 #submit {
   background: #D62222;
   border: none;
