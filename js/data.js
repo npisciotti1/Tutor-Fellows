@@ -53,17 +53,17 @@ new Tutor('Sarah', 'Carter', ['javascript', 'html/css]'], [1, 1, 0, 1, 0, 1, 1],
 new Tutor('James', 'Williums', ['python', 'javascript', 'iOS'], [1, 1, 1, 1, 0, 0, 0], false);
 new Tutor('Frazier', 'Mork', ['python', 'javascript', 'iOS', 'java', 'html/css'], [1, 1, 1, 1, 1, 1, 1], true);
 new Tutor('Brandon', 'Son', ['html/css'], [1,0,0,0,0,0,1], false);
-new Tutor('Cheryln', 'Mckenna', ['java, python'], [0,0,0,1,1,1,0], true);
-new Tutor('Kelly', 'Brandwick', ['javascript, html/css, java'], [0,1,1,0,0,0,1], false);
-new Tutor('Rosalina', 'Martinez', ['python, html/css'], [0,1,1,1,1,1,0], true);
-new Tutor('Jessica', 'Bianchi', ['java, html/css, iOS'], [1,0,0,0,0,0,1], true);
-new Tutor('Amiri', 'Arakida', ['java, iOS'], [0,0,1,0,1,1,0], false);
-new Tutor('Meera', 'Chadha', ['javascript, html/css'], [0,1,1,1,0,0,0], true);
-new Tutor('Alexandra', 'Moreau', ['iOS, java'], [1,0,0,0,0,1,1], false);
-new Tutor('Delaney', 'Granger', ['python, html/css'], [0,0,0,1,0,1,1], true);
-new Tutor('Sarah', 'Sanders', ['javascript, html/css'], [0,1,1,0,1,0,0], false);
-new Tutor('Gianna', 'Dimarzio', ['iOS, html/css'], [0,1,1,1,0,1,0], false);
-new Tutor('Danielle', 'Coulter', ['javascript, java, html/css'], [1,0,1,1,0,0,1], true);
+new Tutor('Cheryln', 'Mckenna', ['java', 'python'], [0,0,0,1,1,1,0], true);
+new Tutor('Kelly', 'Brandwick', ['javascript', 'html/css', 'java'], [0,1,1,0,0,0,1], false);
+new Tutor('Rosalina', 'Martinez', ['python', 'html/css'], [0,1,1,1,1,1,0], true);
+new Tutor('Jessica', 'Bianchi', ['java', 'html/css', 'iOS'], [1,0,0,0,0,0,1], true);
+new Tutor('Amiri', 'Arakida', ['java', 'iOS'], [0,0,1,0,1,1,0], false);
+new Tutor('Meera', 'Chadha', ['javascript', 'html/css'], [0,1,1,1,0,0,0], true);
+new Tutor('Alexandra', 'Moreau', ['iOS', 'java'], [1,0,0,0,0,1,1], false);
+new Tutor('Delaney', 'Granger', ['python', 'html/css'], [0,0,0,1,0,1,1], true);
+new Tutor('Sarah', 'Sanders', ['javascript', 'html/css'], [0,1,1,0,1,0,0], false);
+new Tutor('Gianna', 'Dimarzio', ['iOS', 'html/css'], [0,1,1,1,0,1,0], false);
+new Tutor('Danielle', 'Coulter', ['javascript', 'java', 'html/css'], [1,0,1,1,0,0,1], true);
 
 var currentTutors = [];
 function checkForUser(){
