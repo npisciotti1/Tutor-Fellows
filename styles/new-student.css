@@ -1,27 +1,67 @@
-body {
-  width: auto;
-  margin: auto;
+#newStudentForm {
+  display: inline-block;
+  float: left;
+  margin: 75px auto 0px auto;
+  width: 60%;
+}
+
+h1 {
+  font-size: 25px;
+  padding-bottom: 10px;
+  display: block;
+  border-bottom:1px solid #444444;
+  color: #444444;
+}
+h5{
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 fieldset {
   display: block;
   margin: auto;
   width: 75%;
 }
-.textDiv {
-  display:block;
-  margin: 20px 0px;
+.inputTitles {
+  float: left;
+  width: 20%;
+  text-align: left;
+  padding-right: 10px;
+  margin-top: 10px;
+  color: #888;
 }
-
-.textField {
-
+.textField{
+  border: 1px solid #DADADA;
+  color: #888;
+  height: 30px;
+  margin-bottom: 16px;
+  margin-right: 6px;
+  margin-top: 2px;
+  outline: 0 none;
+  padding: 3px 3px 3px 5px;
+  width: 70%;
+  font-size: 12px;
+  line-height:15px;
+  box-shadow: inset 0px 1px 4px #ECECEC;
 }
 
 .checkbox {
-  display: inline-block;
+  margin-right: 15px;
+  transform: scale(1.4);
 }
 
-#textArea {
+/*#textArea {
   display: block;
   height: 100px;
   width: 250px;
+}*/
+#submit {
+  background: #D62222;
+  border: none;
+  padding: 10px 25px 10px 25px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  margin-top: 25px;
+  cursor: pointer;
 }
