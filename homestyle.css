@@ -57,12 +57,10 @@ h2#looking {
   width:100%;
 }
 .content-box {
-  /*display: inline-block;*/
   width:900px;
-  height:700px;
+  height:900px;
   border: 1px solid white;
   margin: 40px auto;
-  text-align: center;
   background-color: #E8E8E8;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
@@ -97,10 +95,14 @@ h2#looking {
 .buttons:focus {
   outline:none;
 }
+.buttons:hover {
+  cursor: pointer;
+}
 .content-header {
   background-color: #333;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
+  text-align: center;
 }
 .content-header h3 {
   padding-top: 10px;
@@ -111,11 +113,35 @@ h2#looking {
   background-color: #333;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+  text-align: center;
 }
 .content-header1 h3 {
   padding-top: 10px;
   font-size: 35px;
   font-weight: 400;
+}
+.content-box p {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-family: helvetica;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  color: #000;
+}
+
+.content-box img {
+  width:45%;
+  margin-left: 250px;
+  border-radius: 20px;
+}
+span {
+  color:#d03226;
+}
+p a {
+  text-decoration: none;
+}
+p a:visited {
+  color:#000;
 }
 
 #domain p {
