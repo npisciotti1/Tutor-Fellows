@@ -15,7 +15,7 @@ section {
   z-index: 0;
   top: 0;
   left: 0;
-  background: #333 url(http://il3.picdn.net/shutterstock/videos/2172341/thumb/1.jpg) 50% no-repeat;
+  background: #333 url('images/studentTF.jpg') 50% no-repeat;
   background-size:cover;
   height:300px;
   width:100%;
@@ -58,7 +58,6 @@ h2#looking {
 }
 .content-box {
   width:900px;
-  height:900px;
   border: 1px solid white;
   margin: 40px auto;
   background-color: #E8E8E8;
@@ -72,6 +71,7 @@ h2#looking {
   text-align: right;
   margin-top: 68px;
 }
+
 .buttons {
   border: 1px groove trasparent;
   border-top-left-radius: 7px;
@@ -127,6 +127,22 @@ h2#looking {
   padding-bottom: 10px;
   padding-left: 70px;
   color: #000;
+}
+.content-box ul {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-family: helvetica;
+  padding-bottom: 10px;
+  padding-left: 100px;
+  color: #000;
+  list-style: circle;
+}
+.content-box a {
+  text-decoration: none;
+  margin: 0;
+}
+.content-box a:visited {
+  color: #d03226;
 }
 
 .content-box img {
