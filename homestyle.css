@@ -57,11 +57,11 @@ h2#looking {
   width:100%;
 }
 .content-box {
-  display: inline-block;
-  width:470px;
-  height:600px;
+  /*display: inline-block;*/
+  width:900px;
+  height:700px;
   border: 1px solid white;
-  margin:40px 10px 0px 100px;
+  margin: 40px auto;
   text-align: center;
   background-color: #E8E8E8;
   border-bottom-left-radius: 7px;
@@ -103,9 +103,19 @@ h2#looking {
   border-top-right-radius: 7px;
 }
 .content-header h3 {
-  padding: 20px;
-  font-size: 30px;
-  font-weight: 300;
+  padding-top: 10px;
+  font-size: 35px;
+  font-weight: 400;
+}
+.content-header1 {
+  background-color: #333;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+.content-header1 h3 {
+  padding-top: 10px;
+  font-size: 35px;
+  font-weight: 400;
 }
 
 #domain p {
