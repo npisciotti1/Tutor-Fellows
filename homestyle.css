@@ -58,7 +58,6 @@ h2#looking {
 }
 .content-box {
   width:900px;
-  height:900px;
   border: 1px solid white;
   margin: 40px auto;
   background-color: #E8E8E8;
@@ -136,6 +135,14 @@ h2#looking {
   padding-bottom: 10px;
   padding-left: 100px;
   color: #000;
+  list-style: circle;
+}
+.content-box a {
+  text-decoration: none;
+  margin: 0;
+}
+.content-box a:visited {
+  color: #d03226;
 }
 
 .content-box img {
