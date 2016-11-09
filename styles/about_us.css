@@ -12,38 +12,43 @@ h1 {
 }
 
 .about_us_bio {
-   width: 500px;
-   margin: 70px 0;
-   display: block;
-   box-sizing: border-box;
- }
+    box-sizing: border-box;
+}
 
- .about_us_paragraph {
-  float: right;
-  display: inline-block;
-  background-color: black;
-  background-color: rgba(0, 0, 0, .8);
+.about_us_paragraph {
+   display: inline-block;
+   /* background-color: black; */
+   /* background-color: rgba(0, 0, 0, .8); */
    color: white;
-   line-height: 30px;
+   /* line-height: 30px; */
    padding: 16px;
-  width: 500px;
-  width: 300px;
-  height: 200px;
-  box-sizing: border-box;
-  margin-top: 100px;
- }
+   width: 75%;
+   /* width: 300px; */
+   /* height: 200px; */
+   /* height: 212; */
+   /* height: 150; */
+   box-sizing: border-box;
+   margin-top: 100px;
+   display: inline-block;
+   border-radius: 20%;
+}
+
+.about_us_paragraph p {
+  margin-top: 0;
+  padding: 20px;
+}
 
  .about_us_paragraph h2 {
    text-align: center;
  }
 
 .about_us_picture {
-float: left;
 height: 200px;
 width: 200px;
 border-radius: 20%;
 box-sizing: border-box;
 margin-top: 100px;
+display: inline-block;
 }
 
  h1 {
@@ -54,5 +59,38 @@ margin-top: 100px;
 
 
 #stephen_picture {
-  transform: rotate(90deg);
+    transform: rotate(90deg);
+    width: 225;
+    border-radius: 100%;
+}
+
+#devon_picture {
+  margin-right: 25px;
+}
+
+.names {
+  background-color:  rgba(209,51,40,1);
+  height: 50px;
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  border-top: 5px solid rgba(209,51,40, .9);
+  border-bottom: 2.5px solid rgba(209,51,40, .9);
+  border-left: 5px solid rgba(209,51,40, .9);
+  border-right: 5px solid rgba(209,51,40, .9);
+}
+
+.personal_ipsum {
+  background-color: rgba(0, 0, 0, .8);
+  margin: 0;
+  padding-top: 0;
+  border-top: 2.5px solid rgba(209,51,40, .9);
+  border-bottom: 5px solid rgba(209,51,40, .9);
+  border-left: 5px solid rgba(209,51,40, .9);
+  border-right: 5px solid rgba(209,51,40, .9);
+
+}
+
+.personal_ipsum {
+  margin: 0;
 }
