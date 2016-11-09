@@ -2,15 +2,37 @@
   display: inline-block;
   float: left;
   margin: 75px auto 0px auto;
-  width: 60%;
+  width: 50%;
+}
+.textBox{
+  text-align: center;
+  display: inline-block;
+  width: 30%;
+  float: right;
+  margin-top: 30px;
+  margin-right: 150px;
 }
 
 h1 {
+  text-align: center;
   font-size: 25px;
   padding-bottom: 10px;
   display: block;
   border-bottom:1px solid #444444;
   color: #444444;
+}
+h2{
+  width: 100%;
+  color: #444444;
+}
+p {
+  display: inline-block;
+}
+#cf-logo{
+  position: absolute;
+  transform: scale(.6);
+  opacity: .3;
+  right: 50px;
 }
 h5{
   margin-top: 40px;
