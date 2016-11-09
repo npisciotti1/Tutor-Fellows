@@ -1,14 +1,47 @@
-
+#schedule {
+  width:730px;
+  box-sizing: border-box;
+  margin: 20px auto 20px;
+}
 .dayBox {
   width: 100px;
   height: 100px;
-  margin:0 auto;
   display: inline-block;
 }
 
 .tutor {
-  width: 150px;
-  height: 150px;
+  width: 250px;
+  height: 250px;
   border: 5px solid blue;
   display: inline-block;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+#sunday {
+  background-image: url('days-of-week/sunday.png');
+}
+#monday {
+  background-image: url('days-of-week/monday.png');
+  margin: 0 auto;
+}
+#tuesday {
+  background-image: url('days-of-week/tuesday.png');
+  margin: 0 auto;
+}
+#wednesday {
+  background-image: url('days-of-week/wednesday.png');
+  margin: 0 auto;
+
+}
+#thursday {
+  background-image: url('days-of-week/thursday.png');
+  margin: 0 auto;
+}
+#friday {
+  background-image: url('days-of-week/friday.png');
+  margin: 0 auto;
+}
+#saturday {
+  background-image: url('days-of-week/saturday.png');
+  margin: 0 auto;
 }
