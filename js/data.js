@@ -61,7 +61,7 @@ new Tutor('Amiri', 'Arakida', ['java', 'iOS'], [0,0,1,0,1,1,0], false);
 new Tutor('Meera', 'Chadha', ['javascript', 'html/css'], [0,1,1,1,0,0,0], true);
 new Tutor('Alexandra', 'Moreau', ['iOS', 'java'], [1,0,0,0,0,1,1], false);
 new Tutor('Delaney', 'Granger', ['python', 'html/css'], [0,0,0,1,0,1,1], true);
-new Tutor('Sarah', 'Sanders', ['javascript', 'html/css'], [0,1,1,0,1,0,0], false);
+new Tutor('Kate', 'Sanders', ['javascript', 'html/css'], [0,1,1,0,1,0,0], false);
 new Tutor('Gianna', 'Dimarzio', ['iOS', 'html/css'], [0,1,1,1,0,1,0], false);
 new Tutor('Danielle', 'Coulter', ['javascript', 'java', 'html/css'], [1,0,1,1,0,0,1], true);
 

@@ -72,6 +72,7 @@ h2#looking {
   text-align: right;
   margin-top: 68px;
 }
+
 .buttons {
   border: 1px groove trasparent;
   border-top-left-radius: 7px;
@@ -126,6 +127,14 @@ h2#looking {
   font-family: helvetica;
   padding-bottom: 10px;
   padding-left: 70px;
+  color: #000;
+}
+.content-box ul {
+  font-size: 18px;
+  line-height: 1.6em;
+  font-family: helvetica;
+  padding-bottom: 10px;
+  padding-left: 100px;
   color: #000;
 }
 
