@@ -23,7 +23,7 @@ header a {
   text-decoration: none;
 }
 
-#site-nav li {
+#site_nav li {
   /*margin-bottom: 300px;*/
   margin-top: -50px;
   float: right;
@@ -33,12 +33,12 @@ header a {
   font-weight: 600;
   list-style:none;
 }
-#site-nav  a li {
+#site_nav  a li {
   color: #878787;
   text-transform: uppercase;
 }
-#site-nav  a li:hover,
-#site-nav  a li.active{
+#site_nav  a li:hover,
+#site_nav  a li.active{
   color: white;
 }
 footer {
@@ -48,7 +48,7 @@ footer {
   overflow: hidden;
   color: white;
 }
-footer p#top-p {
+footer p#top_p {
   margin-top:80px;
 }
 footer p {
@@ -67,16 +67,16 @@ span {
   color:#d03226;
 }
 
-#social-nav {
+#social_nav {
   float: left;
 }
-#social-nav li {
+#social_nav li {
   display: inline-block;
   margin-top: -20px;
   padding: 0px 5px;
   font-size: 1.8em;
 
 }
-#social-nav a {
+#social_nav a {
 color: white;
 }

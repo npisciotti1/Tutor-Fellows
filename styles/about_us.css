@@ -29,9 +29,9 @@ h1 {
   padding: 20px;
 }
 
- .about_us_paragraph h2 {
+.about_us_paragraph h2 {
   text-align: center;
- }
+}
 
 .about_us_picture {
   height: 200px;
@@ -41,7 +41,7 @@ h1 {
   display: inline-block;
 }
 
- h1 {
+h1 {
   text-align: center;
   background-color: black;
   color: white;

@@ -42,7 +42,7 @@ h2#looking {
   width: 30%;
   margin: 10px auto 15px;
 }
-.home-content-headl {
+.home_content_headl {
   text-align: center;
   font-size: 40px;
   font-weight: 200;
@@ -51,11 +51,11 @@ h2#looking {
   margin-top: 50px;
   margin-bottom: 80px;
 }
-#main-content {
+#main_content {
   position: relative;
   width:100%;
 }
-.content-box {
+.content_box {
   width:900px;
   border: 1px solid white;
   margin: 40px auto 0px;
@@ -63,7 +63,7 @@ h2#looking {
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
 }
-#buttons.buttons-box {
+#buttons.buttons_box {
   display: inline-block;
   width:100%;
   height:100px;
@@ -97,31 +97,31 @@ h2#looking {
 .buttons:hover {
   cursor: pointer;
 }
-.content-header {
+.content_header {
   background-color: #333;
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   text-align: center;
 }
-.content-header h3 {
+.content_header h3 {
   padding-top: 10px;
   font-size: 35px;
   font-weight: 400;
   text-transform: uppercase;
 }
-.content-header1 {
+.content_header1 {
   background-color: #333;
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   text-align: center;
 }
-.content-header1 h3 {
+.content_header1 h3 {
   padding-top: 10px;
   font-size: 35px;
   font-weight: 400;
   text-transform: uppercase;
 }
-.content-box p {
+.content_box p {
   font-size: 18px;
   line-height: 1.6em;
   font-family: helvetica;
@@ -129,7 +129,7 @@ h2#looking {
   padding-left: 70px;
   color: #000;
 }
-.content-box ul {
+.content_box ul {
   font-size: 18px;
   line-height: 1.6em;
   font-family: helvetica;
@@ -138,15 +138,15 @@ h2#looking {
   color: #000;
   list-style: circle;
 }
-.content-box a {
+.content_box a {
   text-decoration: none;
   margin: 0;
 }
-.content-box a:visited {
+.content_box a:visited {
   color: #d03226;
 }
 
-.content-box .developer {
+.content_box .developer {
   width:45%;
   margin-left: 250px;
   border-radius: 20px;
@@ -160,7 +160,7 @@ p a {
 p a:visited {
   color:#000;
 }
-a.display-right {
+a.display_right {
   margin-right:360px;
   margin-right: 300px;
   font-size: 20px;
@@ -169,10 +169,10 @@ a.display-right {
   color:#d03226;
   padding:15px;
 }
-a.display-right:hover {
+a.display_right:hover {
   color:#333;
 }
-a.display-left {
+a.display_left {
   margin-left:376px;
   font-size: 20px;
   font-weight: 300;
@@ -180,7 +180,7 @@ a.display-left {
   color:#d03226;
   padding:15px;
 }
-a.display-left:hover {
+a.display_left:hover {
   color:#333;
 }
 .empty {

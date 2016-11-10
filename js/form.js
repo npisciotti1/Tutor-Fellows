@@ -1,7 +1,7 @@
 'use strict';
 var studentSubjects = [];
 var currentStudent = {};
-var newStudentForm = document.getElementById('newStudentForm');
+var newStudentForm = document.getElementById('new_student_form');
 
 function resetForm(){
   var fName = document.getElementById('fNameForm');
@@ -11,7 +11,20 @@ function resetForm(){
   fName.value = '';
   lName.value = '';
   email.value = '';
-  checkBoxes.checked = false;
+  for(var i = 0; i < checkBoxes.length; i++){
+    checkBoxes[i].checked = false;
+  }
+}
+
+function createButton(){
+  var button = document.createElement('a');
+  var form = document.getElementsByTagName('fieldset')[0];
+  form.appendChild(button);
+  button.innerText = 'Head to the Tutors!';
+  button.setAttribute('type', 'button');
+  button.setAttribute('class', 'button');
+  button.setAttribute('id', 'head_to_tutors');
+  button.setAttribute('href', 'tutor_page.html');
 }
 
 function Student(fName, lName, email, subjects) {
@@ -36,6 +49,9 @@ function submitForm(event){
   currentStudent = student;
   localStorage.setItem('currentUser', JSON.stringify(currentStudent));
   resetForm();
+  if(document.getElementsByClassName('button').length < 2){
+    createButton();
+  }
 }
 
 newStudentForm.addEventListener('submit', submitForm);

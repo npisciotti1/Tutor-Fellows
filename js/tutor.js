@@ -2,13 +2,30 @@
 
 var daysOfWeek = ['sunday', 'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday'];
 var allTutors = [];
+var currentTutors = [];
 
 function resetDivs(){
-  var dayBoxes = document.getElementsByClassName('dayBox');
+  var dayBoxes = document.getElementsByClassName('day_box');
   for (var i = 0; i < dayBoxes.length; i++){
     dayBoxes[i].setAttribute('style', 'background-image: ' + 'url(days-of-week/' + daysOfWeek[i] + '.png)');
   }
 }
+
+function welcome(){
+  var userName = 'Guest';
+  var section = document.getElementById('welcome');
+  var h3 = document.createElement('h3');
+  var p = document.createElement('p');
+  if (localStorage['currentUser']){
+    var user = JSON.parse(localStorage['currentUser']);
+    var userName = user.fName;
+  }
+  h3.innerText = 'Meet Your Tutors!';
+  p.innerText = 'Hello and welcome to Tutor-Fellows, ' + userName + '! To use our simple application, select from below any of the tutors whom you feel would suit your inquiry. Upon being selected, the display of each tutor\'s availability will be shown quite simply in a weekly format. If the icon representing a certain day of the week is lit-up, this indicates that the tutor selected is available during that day. Go ahead and see if you can find a match!';
+  section.appendChild(h3);
+  section.appendChild(p);
+}
+welcome();
 
 function Tutor(fName, lName, subjects, availability, nights) {
   var self = this;
@@ -22,7 +39,7 @@ function Tutor(fName, lName, subjects, availability, nights) {
 
   this.renderTimes = function(event) {
     resetDivs();
-    var dayBoxes = document.getElementsByClassName('dayBox');
+    var dayBoxes = document.getElementsByClassName('day_box');
     for (var i = 0; i < self.availability.length; i++) {
       if (self.availability[i] === 1){
         self.isDisplayed = true;
@@ -32,17 +49,17 @@ function Tutor(fName, lName, subjects, availability, nights) {
   };
 
   this.renderTutor = function() {
-    var parent = document.getElementsByClassName('tutorMenu')[0];
+    var parent = document.getElementsByClassName('tutor_menu')[0];
     var myDiv = document.createElement('div');
     parent.appendChild(myDiv);
     myDiv.setAttribute('class', 'tutor');
     myDiv.setAttribute('style' , 'background-image: url(' + self.picture + ')');
     var nameInfo = document.createElement('p');
-    nameInfo.setAttribute('class', 'tutor-name');
+    nameInfo.setAttribute('class', 'tutor_name');
     nameInfo.innerText = 'Name: ' + self.fName + ' ' + self.lName;
     myDiv.appendChild(nameInfo);
     var subjectsInfo = document.createElement('p');
-    subjectsInfo.setAttribute('class', 'tutor-name');
+    subjectsInfo.setAttribute('class', 'tutor_name');
     subjectsInfo.innerText = 'Subjects: ' + self.subjects.toString();
     myDiv.appendChild(subjectsInfo);
     myDiv.addEventListener('click', self.renderTimes);
@@ -70,7 +87,6 @@ new Tutor('Kate', 'Sanders', ['javascript', 'html/css'], [0,1,1,0,1,0,0], false)
 new Tutor('Gianna', 'Dimarzio', ['iOS', 'html/css'], [0,1,1,1,0,1,0], false);
 new Tutor('Danielle', 'Coulter', ['javascript', 'java', 'html/css'], [1,0,1,1,0,0,1], true);
 
-var currentTutors = [];
 function checkForUser(){
   if(localStorage['currentUser']){
     var user = JSON.parse(localStorage['currentUser']);
