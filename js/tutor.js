@@ -11,18 +11,28 @@ function resetDivs(){
   }
 }
 
+function chooseTutor(event){
+  var submit = document.createElement('button');
+  var welcome = document.getElementById('welcome');
+  submit.setAttribute('class', 'button');
+  submit.innerText = 'Choose Tutor!';
+  if(document.getElementsByClassName('button').length < 1) {
+    welcome.appendChild(submit);
+  }
+}
+
 function welcome(){
   var userName = 'Guest';
   var section = document.getElementById('welcome');
-  var h3 = document.createElement('h3');
+  var h2 = document.createElement('h2');
   var p = document.createElement('p');
   if (localStorage['currentUser']){
     var user = JSON.parse(localStorage['currentUser']);
     var userName = user.fName;
   }
-  h3.innerText = 'Meet Your Tutors!';
-  p.innerText = 'Hello and welcome to Tutor-Fellows, ' + userName + '! To use our simple application, select from below any of the tutors whom you feel would suit your inquiry. Upon being selected, the display of each tutor\'s availability will be shown quite simply in a weekly format. If the icon representing a certain day of the week is lit-up, this indicates that the tutor selected is available during that day. Go ahead and see if you can find a match!';
-  section.appendChild(h3);
+  h2.innerText = 'Meet Your Tutors!';
+  p.innerText = 'Hello and welcome to Tutor-Fellows, ' + userName + '! To use our simple application, select from below any of the tutors whom you feel would suit your inquiry. Upon being selected, the display of each tutor\'s availability will be shown in a weekly format. If the icon representing a certain day of the week is lit-up, this indicates that the tutor selected is available during that day. Upon selecting a tutor that you\'d like to contact, choose them by clicking, then submit your email to them by clicking, "Choose Tutor!" Go ahead and see if you can find a match!';
+  section.appendChild(h2);
   section.appendChild(p);
 }
 welcome();
@@ -63,29 +73,30 @@ function Tutor(fName, lName, subjects, availability, nights) {
     subjectsInfo.innerText = 'Subjects: ' + self.subjects.toString();
     myDiv.appendChild(subjectsInfo);
     myDiv.addEventListener('click', self.renderTimes);
+    myDiv.addEventListener('click', chooseTutor);
   };
   allTutors.push(this);
 }
-new Tutor('Jerry', 'Beal', ['python ', 'html/css'], [0, 1, 0, 1, 0, 1, 0], true);
-new Tutor('Michael', 'Jensen', ['javascript ', 'html/css'], [0, 0, 1, 1, 1, 0, 0], true);
+new Tutor('Jerry', 'Beal', ['python', 'html/css'], [0, 1, 0, 1, 0, 1, 0], true);
+new Tutor('Michael', 'Jensen', ['javascript', 'html/css'], [0, 0, 1, 1, 1, 0, 0], true);
 new Tutor('Howard', 'Atley', ['java'], [1, 0, 1, 1, 0, 1, 1], false);
-new Tutor('Mary', 'Contrary', ['iOS ', 'javascript'], [0, 1, 0, 0, 0, 1, 1], false);
+new Tutor('Mary', 'Contrary', ['iOS', 'javascript'], [0, 1, 0, 0, 0, 1, 1], false);
 new Tutor('Ben', 'Johnson', ['javascript'], [0, 1, 1, 0, 0, 0, 0], true);
-new Tutor('Sarah', 'Carter', ['javascript ', 'html/css'], [1, 1, 0, 1, 0, 1, 1], false);
-new Tutor('James', 'Williums', ['python ', 'javascript ', 'iOS'], [1, 1, 1, 1, 0, 0, 0], false);
-new Tutor('Frazier', 'Mork', ['python ', 'javascript ', 'iOS ', 'java ', 'html/css'], [1, 1, 1, 1, 1, 1, 1], true);
+new Tutor('Sarah', 'Carter', ['javascript', 'html/css'], [1, 1, 0, 1, 0, 1, 1], false);
+new Tutor('James', 'Williums', ['python', 'javascript', 'iOS'], [1, 1, 1, 1, 0, 0, 0], false);
+new Tutor('Frazier', 'Mork', ['python', 'javascript', 'iOS', 'java', 'html/css'], [1, 1, 1, 1, 1, 1, 1], true);
 new Tutor('Brandon', 'Son', ['html/css'], [1,0,0,0,0,0,1], false);
-new Tutor('Tyler', 'Mckenna', ['java ', 'python'], [0,0,0,1,1,1,0], true);
-new Tutor('Kelly', 'Brandwick', ['javascript ', 'html/css ', 'java'], [0,1,1,0,0,0,1], false);
-new Tutor('Rosalina', 'Martinez', ['python ', 'html/css'], [0,1,1,1,1,1,0], true);
-new Tutor('Jessica', 'Bianchi', ['java ', 'html/css', ' iOS'], [1,0,0,0,0,0,1], true);
-new Tutor('Amiri', 'Arakida', ['java ', 'iOS'], [0,0,1,0,1,1,0], false);
-new Tutor('Meera', 'Chadha', ['javascript ', ' html/css'], [0,1,1,1,0,0,0], true);
-new Tutor('Alexandra', 'Moreau', ['iOS ', 'java'], [1,0,0,0,0,1,1], false);
-new Tutor('David', 'Granger', ['python ', ' html/css'], [0,0,0,1,0,1,1], true);
-new Tutor('Kate', 'Sanders', ['javascript ', ' html/css'], [0,1,1,0,1,0,0], false);
-new Tutor('Gianna', 'Dimarzio', ['iOS ', ' html/css'], [0,1,1,1,0,1,0], false);
-new Tutor('Danielle', 'Coulter', ['javascript ', ' java ', ' html/css'], [1,0,1,1,0,0,1], true);
+new Tutor('Tyler', 'Mckenna', ['java', 'python'], [0,0,0,1,1,1,0], true);
+new Tutor('Kelly', 'Brandwick', ['javascript', 'html/css', 'java'], [0,1,1,0,0,0,1], false);
+new Tutor('Rosalina', 'Martinez', ['python', 'html/css'], [0,1,1,1,1,1,0], true);
+new Tutor('Jessica', 'Bianchi', ['java', 'html/css', 'iOS'], [1,0,0,0,0,0,1], true);
+new Tutor('Amiri', 'Arakida', ['java', 'iOS'], [0,0,1,0,1,1,0], false);
+new Tutor('Meera', 'Chadha', ['javascript', 'html/css'], [0,1,1,1,0,0,0], true);
+new Tutor('Alexandra', 'Moreau', ['iOS', 'java'], [1,0,0,0,0,1,1], false);
+new Tutor('David', 'Granger', ['python', 'html/css'], [0,0,0,1,0,1,1], true);
+new Tutor('Kate', 'Sanders', ['javascript', 'html/css'], [0,1,1,0,1,0,0], false);
+new Tutor('Gianna', 'Dimarzio', ['iOS', 'html/css'], [0,1,1,1,0,1,0], false);
+new Tutor('Danielle', 'Coulter', ['javascript', 'java', 'html/css'], [1,0,1,1,0,0,1], true);
 
 function checkForUser(){
   if(localStorage['currentUser']){

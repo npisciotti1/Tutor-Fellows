@@ -14,6 +14,13 @@ h1 {
 .about_us_bio {
   box-sizing: border-box;
 }
+.top_link {
+  position: fixed;
+  color: red;
+  bottom: 5px;
+  right: 5px;
+  font-size: 30px;
+}
 
 .about_us_paragraph {
   color: white;
