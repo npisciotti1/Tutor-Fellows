@@ -1,16 +1,23 @@
+main {
+}
 #newStudentForm {
   display: inline-block;
   float: left;
   margin: 75px auto 0px auto;
   width: 50%;
+  height: 50%;
 }
 .textBox{
   text-align: center;
   display: inline-block;
   width: 30%;
+  height: 400px;
   float: right;
-  margin-top: 100px;
+  margin-top: 90px;
   margin-right: 150px;
+  background-image: url('../images/cf-logo(sized).png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
@@ -81,4 +88,10 @@ fieldset {
   text-shadow: 1px 1px 1px #9E3F3F;
   margin-top: 25px;
   cursor: pointer;
+}
+footer {
+  height: 150px;
+}
+footer p#top-p {
+  margin-top: 0px;
 }
