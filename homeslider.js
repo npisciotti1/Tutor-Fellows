@@ -2,8 +2,8 @@
 /* This was found on the W3 website, http://www.w3schools.com/w3css/w3css_slideshow.asp, I understand the mechanics behind the slideshow */
 
 var captions = ['Our Main Area', 'Student Workplace', 'Private Rooms', 'Whiteboarding', 'Hangout Area', 'Common Room'];
-var left = document.getElementById('display-left');
-var right = document.getElementById('display-right');
+var left = document.getElementById('display_left');
+var right = document.getElementById('display_right');
 var slideIndex = 1;
 showDivs(slideIndex);
 
