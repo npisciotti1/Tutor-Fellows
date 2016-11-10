@@ -12,6 +12,7 @@ function resetDivs(){
 
 function Tutor(fName, lName, subjects, availability, nights) {
   var self = this;
+  this.picture = 'tutor-images/' + fName + '.jpg';
   this.fName = fName;
   this.lName = lName;
   this.subjects = subjects;
@@ -35,11 +36,15 @@ function Tutor(fName, lName, subjects, availability, nights) {
     var myDiv = document.createElement('div');
     parent.appendChild(myDiv);
     myDiv.setAttribute('class', 'tutor');
-    myDiv.setAttribute('background-image', self.picture);
+    myDiv.setAttribute('style' , 'background-image: url(' + self.picture + ')');
     var nameInfo = document.createElement('p');
+    nameInfo.setAttribute('class', 'tutor-name');
     nameInfo.innerText = self.fName + ' ' + self.lName;
+    myDiv.appendChild(nameInfo);
     var subjectsInfo = document.createElement('p');
+    subjectsInfo.setAttribute('class', 'tutor-name');
     subjectsInfo.innerText = self.subjects.toString();
+    myDiv.appendChild(subjectsInfo);
     myDiv.addEventListener('click', self.renderTimes);
   };
   allTutors.push(this);
