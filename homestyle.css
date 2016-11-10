@@ -169,18 +169,31 @@ p a {
 p a:visited {
   color:#000;
 }
+<<<<<<< HEAD
+a.display_right {
+  margin-right:360px;
+  margin-right: 300px;
+=======
 a#display_right {
   position:absolute;
   bottom:10px;
   right:10px;
   /*margin-right:360px;
   margin-right: 300px;*/
+>>>>>>> master
   font-size: 20px;
   font-weight: 300;
   font-family: helvetica;
   color:#d03226;
   padding:15px;
 }
+<<<<<<< HEAD
+a.display_right:hover {
+  color:#333;
+}
+a.display_left {
+  margin-left:376px;
+=======
 a#display_right:hover {
   color:#333;
 }
@@ -189,13 +202,18 @@ a#display_left {
   bottom:10px;
   left:10px;
   /*margin-left:376px;*/
+>>>>>>> master
   font-size: 20px;
   font-weight: 300;
   font-family: helvetica;
   color:#d03226;
   padding:15px;
 }
+<<<<<<< HEAD
+a.display_left:hover {
+=======
 a#display_left:hover {
+>>>>>>> master
   color:#333;
 }
 .empty {

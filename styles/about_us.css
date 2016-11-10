@@ -12,16 +12,16 @@ h1 {
 }
 
 .about_us_bio {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 .about_us_paragraph {
-   color: white;
-   padding: 16px;
-   box-sizing: border-box;
-   margin-top: 100px;
-   display: inline-block;
-   border-radius: 20%;
+  color: white;
+  padding: 16px;
+  box-sizing: border-box;
+  margin-top: 100px;
+  display: inline-block;
+  border-radius: 20%;
 }
 
 .about_us_paragraph p {
@@ -29,30 +29,30 @@ h1 {
   padding: 20px;
 }
 
- .about_us_paragraph h2 {
-   text-align: center;
- }
-
-.about_us_picture {
-height: 200px;
-width: 200px;
-border-radius: 20%;
-box-sizing: border-box;
-display: inline-block;
+.about_us_paragraph h2 {
+  text-align: center;
 }
 
- h1 {
-   text-align: center;
+.about_us_picture {
+  height: 200px;
+  width: 200px;
+  border-radius: 20%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+h1 {
+  text-align: center;
   background-color: black;
   color: white;
 }
 
 #stephen_picture {
-    width: 225px;
-    border-radius: 100%;
-    float: left;
-    margin-right: 25px;
-    border-radius: 100%;
+  width: 225px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 25px;
+  border-radius: 100%;
 }
 
 #devon_picture {
@@ -91,10 +91,7 @@ display: inline-block;
   border-bottom: 5px solid #333;
   border-left: 5px solid #333;
   border-right: 5px solid #333;
-
 }
-
-
 
 .clear_fix {
   clear:both;

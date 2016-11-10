@@ -1,16 +1,21 @@
-#newStudentForm {
+#new_student_form {
   display: inline-block;
   float: left;
-  margin: 75px auto 0px auto;
+  margin: 75px auto 40px auto;
   width: 50%;
+  height: 50%;
 }
-.textBox{
+
+.text_box{
   text-align: center;
   display: inline-block;
   width: 30%;
+  height: 400px;
   float: right;
-  margin-top: 100px;
-  margin-right: 150px;
+  margin: 90px 150px 40px 0px;
+  background-image: url('../images/cf-logo(sized).png');
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 h1 {
@@ -21,30 +26,28 @@ h1 {
   border-bottom:1px solid #444444;
   color: #444444;
 }
-h2{
+
+h2 {
   width: 100%;
   color: #444444;
 }
+
 p {
   display: inline-block;
 }
-#cf-logo{
-  position: absolute;
-  transform: scale(.6);
-  opacity: .15;
-  right: 44px;
-  bottom: -20px;
-}
+
 h5{
   margin-top: 40px;
   margin-bottom: 20px;
 }
+
 fieldset {
   display: block;
   margin: auto;
   width: 75%;
 }
-.inputTitles {
+
+.input_titles {
   float: left;
   width: 20%;
   text-align: left;
@@ -52,7 +55,8 @@ fieldset {
   margin-top: 10px;
   color: #888;
 }
-.textField{
+
+.text_field{
   border: 1px solid #DADADA;
   color: #888;
   height: 30px;
@@ -71,7 +75,8 @@ fieldset {
   margin-right: 15px;
   transform: scale(1.4);
 }
-#submit {
+
+.button {
   background: #D62222;
   border: none;
   padding: 10px 25px 10px 25px;
@@ -81,4 +86,17 @@ fieldset {
   text-shadow: 1px 1px 1px #9E3F3F;
   margin-top: 25px;
   cursor: pointer;
+  margin-left: 30px;
+}
+
+#head_to_tutors{
+  width: 30px;
+}
+
+footer {
+  height: 150px;
+}
+
+footer p#top_p {
+  margin-top: 0px;
 }

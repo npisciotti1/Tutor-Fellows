@@ -24,6 +24,10 @@ header a {
 }
 
 #site_nav li {
+<<<<<<< HEAD:styles/main_styles.css
+  /*margin-bottom: 300px;*/
+=======
+>>>>>>> master:styles/main_styles.css
   margin-top: -50px;
   float: right;
   padding: 20px;
@@ -42,6 +46,7 @@ header a {
 }
 footer {
   width: 100%;
+  /*height: 150px;*/
   background-color: #000;
   overflow: hidden;
   color: white;
