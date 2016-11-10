@@ -1,0 +1,81 @@
+body {
+  width: auto;
+  margin: auto;
+  font-family: Helvetica;
+}
+.logo {
+  width:auto;
+  margin: 20px 0;
+}
+a:hover {
+  cursor: pointer;
+}
+header {
+    background-color: #000;
+    height:120px;
+    overflow: hidden;
+    color:white;
+    font-size:15px;
+
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+#site-nav li {
+  /*margin-bottom: 300px;*/
+  margin-top: -50px;
+  float: right;
+  padding: 20px;
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  list-style:none;
+}
+#site-nav  a li {
+  color: #878787;
+  text-transform: uppercase;
+}
+#site-nav  a li:hover,
+#site-nav  a li.active{
+  color: white;
+}
+footer {
+  margin-top: 500px;
+  background-color: #000;
+  overflow: hidden;
+  color: white;
+}
+footer p#top-p {
+  margin-top:80px;
+}
+footer p {
+  text-align: center;
+  color:gray;
+  width:90%;
+  margin-bottom: -10px;
+  font-size: 13px;
+  font-weight: 100;
+}
+.label {
+  margin-left: 50px;
+  padding: 10px 0px;
+}
+span {
+  color:#d03226;
+}
+
+#social-nav {
+  float: left;
+}
+#social-nav li {
+  display: inline-block;
+  margin-top: -20px;
+  padding: 0px 5px;
+  font-size: 1.8em;
+
+}
+#social-nav a {
+color: white;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="font-awesome-4.7.0 3/css/font-awesome.min.css" media="screen" title="no title">
+    <link rel="stylesheet" type="text/css" href="styles/main-styles.css">
+    <link rel="stylesheet" href="styles/new-student.css">
+    <title>New Student Form</title>
+  </head>
+  <body>
+    <main>
+      <header>
+        <nav id="site-nav">
+          <div class="logo">
+            <img src="images/tutor-fellows-logo3.png" alt="logo"/>
+          </div>
+          <ul>
+            <a href="tutor_page.html"><li>Tutors</li></a>
+            <a href="new-student.html"><li class="active">Register</li></a>
+            <a href="about_us.html"><li>About Us</li></a>
+            <a href="index.html"><li>Home</li></a>
+          </ul>
+        </nav>
+      </header>
+      <form id="newStudentForm" action="index.html">
+        <fieldset>
+          <h1>New Student Form</h1>
+          <span class="inputTitles">Name:</span> <input id="fNameForm" class="textField" type="text" name="fName" placeholder="First Name" max="12">
+          <span class="inputTitles">Last Name:</span> <input id='lNameForm' class="textField" type="text" name:"lName" placeholder="Last Name" max="15">
+          <span class="inputTitles">Email:</span> <input id="emailForm" class="textField" type="text" name="email" placeholder="Email" max="18">
+          <h5>Select from below the subjects you seek help with:</h5>
+          Javascript: <input id="javascriptCB" class="checkbox" type="checkbox" name="Javascript" value="javascript">
+          HTML/CSS: <input id="html/cssCB" class="checkbox" type="checkbox" name="HTML/CSS" value ="html/css">
+          Python: <input id="pythonCB" class="checkbox" type="checkbox" name="Python" value="python">
+          iOS: <input id="iosCB" class="checkbox" type="checkbox" name="iOS" value="ios">
+          Java: <input id="javaCB" class="checkbox" type="checkbox" name="Java" value="java">
+          <input id="submit" type="submit" name="submit" value="Register!">
+        </fieldset>
+      </form>
+      <section class="textBox">
+        <img id="cf-logo" src="images/cf-logo.png">
+        <h2>Why Register?</h2>
+          <p>We wanted to create this simple application to identify a suitable tutor for each user. The information that you share with us will be kept confidential and used solely to aid you in connecting with a tutor who fits your schedule and subject needs. Once you've registered, the tutors that will display on our "Tutors" page will be catered based on your selections.</p>
+      </section>
+    </main>
+    <footer>
+      <nav id= "social-nav">
+        <h4 class="label">Contact us</h4>
+        <ul>
+          <li><a href="#"><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+         <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+        </ul>
+      </nav>
+      <div class="location">
+
+      </div>
+      <p id="top-p">Copyright 2016 &copy; <span class="text-red">The Dream-Team 16</span>,</p> <p>dreamteam16@tutorfellows.org</p>
+      <script src="js/form.js"></script>
+    </footer>
+  </body>
+</html>
