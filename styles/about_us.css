@@ -49,7 +49,6 @@ display: inline-block;
 
 
 #stephen_picture {
-    transform: rotate(90deg);
     width: 225px;
     border-radius: 100%;
     float: left;
