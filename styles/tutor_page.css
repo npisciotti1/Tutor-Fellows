@@ -38,7 +38,9 @@
   border-bottom-right-radius: 7px;
   font-family: helvetica;
   font-size: 15px;
-  font-weight: 200;
+  font-weight: bold;
+  background-color: #E8E8E8;
+
 }
 .tutor:hover {
   border: 2px groove #d03226;
