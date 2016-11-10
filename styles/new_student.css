@@ -1,3 +1,4 @@
+
 #new_student_form {
   display: inline-block;
   float: left;
@@ -32,7 +33,7 @@ h2 {
   color: #444444;
 }
 
-p {
+section.text_box p {
   display: inline-block;
 }
 
@@ -95,12 +96,4 @@ fieldset {
   text-decoration: none;
   width: 100px;
   margin: 20px 0px 0px 25px;
-}
-
-footer {
-  height: 150px;
-}
-
-footer p#top_p {
-  margin-top: 0px;
 }
