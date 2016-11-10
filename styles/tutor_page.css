@@ -79,5 +79,25 @@
 }
 #welcome{
   text-align: center;
-  /*width:50px;*/
+  width: 80%;
+  margin: auto;
+}
+.button {
+  background: #D62222;
+  border: none;
+  padding: 10px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  margin-top: 25px;
+  transition: all .1s linear;
+  cursor: pointer;
+}
+.button:active {
+  transform: translateY(2px);
+  text-decoration: none;
+}
+.button:focus {
+  outline:none;
 }
