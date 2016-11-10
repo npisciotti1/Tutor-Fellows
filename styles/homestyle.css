@@ -14,7 +14,7 @@ section {
   z-index: 0;
   top: 0;
   left: 0;
-  background: #333 url('images/studentTF.jpg') 50% no-repeat;
+  background: #333 url('../images/studentTF.jpg') 50% no-repeat;
   background-size:cover;
   height:300px;
   width:100%;
