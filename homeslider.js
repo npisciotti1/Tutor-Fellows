@@ -1,6 +1,7 @@
 'use strict';
 /* This was found on the W3 website, http://www.w3schools.com/w3css/w3css_slideshow.asp, I understand the mechanics behind the slideshow */
 
+var captions = [];
 var slideIndex = 1;
 showDivs(slideIndex);
 
