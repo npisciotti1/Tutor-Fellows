@@ -24,7 +24,6 @@
   background-repeat: no-repeat;
   cursor: pointer;
   overflow: hidden;
-
 }
 
 .tutor_name {
@@ -59,4 +58,7 @@
 #saturday {
   background-image: url('days-of-week/saturday.png');
   margin: 0 auto;
+}
+#welcome{
+  text-align: center;
 }
