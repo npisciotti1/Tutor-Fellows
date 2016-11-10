@@ -58,23 +58,23 @@ margin-right: 30px;
   color: white;
 }
 
+/*resized images so I commented out the css rules since the sizing was working fine (we can figure it out tomorrow) */
 
 #stephen_picture {
-    transform: rotate(90deg);
-    width: 225;
-    border-radius: 100%;
+  /*width: 225;*/
+  border-radius: 100%;
 }
 
-#devon_picture {
+/*#devon_picture {
   margin-right: 25px;
   height: 230px;
   width: 230px;
-}
+}*/
 
-#nikko_picture {
+/*#nikko_picture {
   height: 230px;
   width: 230px;
-}
+}*/
 
 .names {
   background-color: #333;
