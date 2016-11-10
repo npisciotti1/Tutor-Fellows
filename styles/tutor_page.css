@@ -50,31 +50,31 @@
   top:80%;
 }
 #sunday {
-  background-image: url('days-of-week/sunday.png');
+  background-image: url('../days-of-week/sunday.png');
 }
 #monday {
-  background-image: url('days-of-week/monday.png');
+  background-image: url('../days-of-week/monday.png');
   margin: 0 auto;
 }
 #tuesday {
-  background-image: url('days-of-week/tuesday.png');
+  background-image: url('../days-of-week/tuesday.png');
   margin: 0 auto;
 }
 #wednesday {
-  background-image: url('days-of-week/wednesday.png');
+  background-image: url('../days-of-week/wednesday.png');
   margin: 0 auto;
 
 }
 #thursday {
-  background-image: url('days-of-week/thursday.png');
+  background-image: url('../days-of-week/thursday.png');
   margin: 0 auto;
 }
 #friday {
-  background-image: url('days-of-week/friday.png');
+  background-image: url('../days-of-week/friday.png');
   margin: 0 auto;
 }
 #saturday {
-  background-image: url('days-of-week/saturday.png');
+  background-image: url('../days-of-week/saturday.png');
   margin: 0 auto;
 }
 #welcome{
