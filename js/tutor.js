@@ -29,7 +29,7 @@ welcome();
 
 function Tutor(fName, lName, subjects, availability, nights) {
   var self = this;
-  this.picture = 'tutor-images/' + fName + '.jpg';
+  this.picture = 'tutor-images/' + fName.toLowerCase() + '.jpg';
   this.fName = fName;
   this.lName = lName;
   this.subjects = subjects;
