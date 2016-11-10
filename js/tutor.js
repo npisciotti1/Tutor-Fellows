@@ -39,11 +39,11 @@ function Tutor(fName, lName, subjects, availability, nights) {
     myDiv.setAttribute('style' , 'background-image: url(' + self.picture + ')');
     var nameInfo = document.createElement('p');
     nameInfo.setAttribute('class', 'tutor-name');
-    nameInfo.innerText = self.fName + ' ' + self.lName;
+    nameInfo.innerText = 'Name: ' + self.fName + ' ' + self.lName;
     myDiv.appendChild(nameInfo);
     var subjectsInfo = document.createElement('p');
     subjectsInfo.setAttribute('class', 'tutor-name');
-    subjectsInfo.innerText = self.subjects.toString();
+    subjectsInfo.innerText = 'Subjects: ' + self.subjects.toString();
     myDiv.appendChild(subjectsInfo);
     myDiv.addEventListener('click', self.renderTimes);
   };

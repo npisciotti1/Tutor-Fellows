@@ -25,9 +25,12 @@
   margin-bottom: 30px;
   background-repeat: no-repeat;
   cursor: pointer;
+  overflow: hidden;
+
 }
 
 .tutor-name {
+  margin:10px 0px 0px 0px;
   position: relative;
   top:80%;
 }
