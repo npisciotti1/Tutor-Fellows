@@ -51,7 +51,7 @@
           <p>
             We offer an enriched tutoring service, that enables students to grow and prosper into the <a href="about_us.html"><span>Developers</span></a> that they are meant to be!
           </p>
-          <img src="images/developerTF.jpg" alt="developer"/>
+          <img class="developer" src="images/developerTF.jpg" alt="developer"/>
           <p>
             Our <a href="tutor_page.html"><span>Tutors</span></a> are professionally trained and extremely knowledgable. Most of our tutors have either gone thru <a href="www.codefellows.org"><span>CodeFellows</span></a> or are expert in there respective fields.
           </p>
@@ -67,17 +67,18 @@
           <header class= "content-header1">
             <h3>Our Base</h3>
           </header>
-          <img class="mySlides" src="images/area.JPG">
-          <img class="mySlides" src="images/desks.JPG">
-          <img class="mySlides" src="images/classroom.JPG">
-          <img class="mySlides" src="images/room.JPG">
-          <img class="mySlides" src="images/whiteboard.JPG">
-          <img class="mySlides" src="images/hang.JPG">
-          <img class="mySlides" src="images/commonroom.JPG">
-
-
-          <a class="display-left" onclick="plusDivs(-1)">&#10094;</a>
-          <a class="display-right" onclick="plusDivs(+1)">&#10095;</a>
+          <div class="slider">
+            <img class="mySlides" src="images/area.JPG">
+            <img class="mySlides" src="images/desks.JPG">
+            <img class="mySlides" src="images/classroom.JPG">
+            <img class="mySlides" src="images/room.JPG">
+            <img class="mySlides" src="images/whiteboard.JPG">
+            <img class="mySlides" src="images/hang.JPG">
+            <img class="mySlides" src="images/commonroom.JPG">
+            <a class="display-left" onclick="plusDivs(-1)">&#10094; Prev</a>
+            <a class="display-right" onclick="plusDivs(+1)"> Next &#10095;</a>
+          </div>
+          <div class="empty"></div>
         </div>
       </section>
     </main>
@@ -95,5 +96,6 @@
       </div>
       <p id="top-p">Copyright 2016 &copy; <span class="text-red">The Dream-Team 16</span>,</p> <p>dreamteam16@tutorfellows.org</p>
     </footer>
+    <script src="homeslider.js"></script>
   </body>
 </html>

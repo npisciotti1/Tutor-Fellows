@@ -47,12 +47,12 @@ display: inline-block;
   color: white;
 }
 
-
 #stephen_picture {
     width: 225px;
     border-radius: 100%;
     float: left;
     margin-right: 25px;
+    border-radius: 100%;
 }
 
 #devon_picture {
