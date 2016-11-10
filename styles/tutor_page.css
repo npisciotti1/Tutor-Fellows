@@ -50,34 +50,54 @@
   top:80%;
 }
 #sunday {
-  background-image: url('days-of-week/sunday.png');
+  background-image: url('../days-of-week/sunday.png');
 }
 #monday {
-  background-image: url('days-of-week/monday.png');
+  background-image: url('../days-of-week/monday.png');
   margin: 0 auto;
 }
 #tuesday {
-  background-image: url('days-of-week/tuesday.png');
+  background-image: url('../days-of-week/tuesday.png');
   margin: 0 auto;
 }
 #wednesday {
-  background-image: url('days-of-week/wednesday.png');
+  background-image: url('../days-of-week/wednesday.png');
   margin: 0 auto;
 
 }
 #thursday {
-  background-image: url('days-of-week/thursday.png');
+  background-image: url('../days-of-week/thursday.png');
   margin: 0 auto;
 }
 #friday {
-  background-image: url('days-of-week/friday.png');
+  background-image: url('../days-of-week/friday.png');
   margin: 0 auto;
 }
 #saturday {
-  background-image: url('days-of-week/saturday.png');
+  background-image: url('../days-of-week/saturday.png');
   margin: 0 auto;
 }
 #welcome{
   text-align: center;
-  /*width:50px;*/
+  width: 80%;
+  margin: auto;
+}
+.button {
+  background: #D62222;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  color: #FFF;
+  box-shadow: 1px 1px 5px #B6B6B6;
+  border-radius: 3px;
+  text-shadow: 1px 1px 1px #9E3F3F;
+  margin-top: 25px;
+  transition: all .1s linear;
+  cursor: pointer;
+}
+.button:active {
+  transform: translateY(2px);
+  text-decoration: none;
+}
+.button:focus {
+  outline:none;
 }

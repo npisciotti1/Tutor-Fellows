@@ -90,7 +90,11 @@ fieldset {
 }
 
 #head_to_tutors{
-  width: 30px;
+  display: block;
+  font-size: 11px;
+  text-decoration: none;
+  width: 100px;
+  margin: 20px 0px 0px 25px;
 }
 
 footer {

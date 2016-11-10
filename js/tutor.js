@@ -11,18 +11,28 @@ function resetDivs(){
   }
 }
 
+function chooseTutor(event){
+  var submit = document.createElement('button');
+  var welcome = document.getElementById('welcome');
+  submit.setAttribute('class', 'button');
+  submit.innerText = 'Choose Tutor!';
+  if(document.getElementsByClassName('button').length < 1) {
+    welcome.appendChild(submit);
+  }
+}
+
 function welcome(){
   var userName = 'Guest';
   var section = document.getElementById('welcome');
-  var h3 = document.createElement('h3');
+  var h2 = document.createElement('h2');
   var p = document.createElement('p');
   if (localStorage['currentUser']){
     var user = JSON.parse(localStorage['currentUser']);
     var userName = user.fName;
   }
-  h3.innerText = 'Meet Your Tutors!';
-  p.innerText = 'Hello and welcome to Tutor-Fellows, ' + userName + '! To use our simple application, select from below any of the tutors whom you feel would suit your inquiry. Upon being selected, the display of each tutor\'s availability will be shown quite simply in a weekly format. If the icon representing a certain day of the week is lit-up, this indicates that the tutor selected is available during that day. Go ahead and see if you can find a match!';
-  section.appendChild(h3);
+  h2.innerText = 'Meet Your Tutors!';
+  p.innerText = 'Hello and welcome to Tutor-Fellows, ' + userName + '! To use our simple application, select from below any of the tutors whom you feel would suit your inquiry. Upon being selected, the display of each tutor\'s availability will be shown in a weekly format. If the icon representing a certain day of the week is lit-up, this indicates that the tutor selected is available during that day. Upon selecting a tutor that you\'d like to contact, choose them by clicking, then submit your email to them by clicking, "Choose Tutor!" Go ahead and see if you can find a match!';
+  section.appendChild(h2);
   section.appendChild(p);
 }
 welcome();
@@ -63,6 +73,7 @@ function Tutor(fName, lName, subjects, availability, nights) {
     subjectsInfo.innerText = 'Subjects: ' + self.subjects.toString();
     myDiv.appendChild(subjectsInfo);
     myDiv.addEventListener('click', self.renderTimes);
+    myDiv.addEventListener('click', chooseTutor);
   };
   allTutors.push(this);
 }
