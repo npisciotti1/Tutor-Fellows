@@ -85,7 +85,7 @@
 .button {
   background: #D62222;
   border: none;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   color: #FFF;
   box-shadow: 1px 1px 5px #B6B6B6;
   border-radius: 3px;
