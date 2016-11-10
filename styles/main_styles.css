@@ -24,7 +24,10 @@ header a {
 }
 
 #site_nav li {
+<<<<<<< HEAD:styles/main_styles.css
   /*margin-bottom: 300px;*/
+=======
+>>>>>>> master:styles/main_styles.css
   margin-top: -50px;
   float: right;
   padding: 20px;

@@ -12,10 +12,18 @@
   position: relative;
   margin-bottom: 30px;
 }
+
+.top_link {
+  position: fixed;
+  color: red;
+  bottom: 5px;
+  right: 5px;
+  font-size: 30px;
+}
 .tutor {
   width: 250px;
   height: 370px;
-  border: 5px solid blue;
+  border: 2px groove black;
   display: inline-block;
   float:left;
   margin-left: 50px;
@@ -24,6 +32,16 @@
   background-repeat: no-repeat;
   cursor: pointer;
   overflow: hidden;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  font-family: helvetica;
+  font-size: 15px;
+  font-weight: 200;
+}
+.tutor:hover {
+  border: 2px groove #d03226;
 }
 
 .tutor_name {
