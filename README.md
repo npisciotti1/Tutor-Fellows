@@ -5,7 +5,7 @@
 # Why We Built Our App
 * Wanted to create an app where students in need of help can be matched with tutors that meet their criteria and needs.
 
-#Basic function
+#Basic Function
 * User inputs information on our register page, which is persisted thru local storage. Then user information is compared with tutor information. The site compiles list of tutors that match the user's inputs. Each tutor is interactive by displaying their weekly availability, in a visual format.
 
 #User Stories
