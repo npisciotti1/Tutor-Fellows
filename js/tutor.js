@@ -28,7 +28,9 @@ function welcome(){
   var p = document.createElement('p');
   if (localStorage['currentUser']){
     var user = JSON.parse(localStorage['currentUser']);
-    var userName = user.fName;
+    if (user.fName.length > 0) {
+      var userName = user.fName;
+    }
   }
   h2.innerText = 'Meet Your Tutors!';
   p.innerText = 'Hello and welcome to Tutor-Fellows, ' + userName + '! To use our simple application, select from below any of the tutors whom you feel would suit your inquiry. Upon being selected, the display of each tutor\'s availability will be shown in a weekly format. If the icon representing a certain day of the week is lit-up, this indicates that the tutor selected is available during that day. Upon selecting a tutor that you\'d like to contact, choose them by clicking, then submit your email to them by clicking, "Choose Tutor!" Go ahead and see if you can find a match!';
